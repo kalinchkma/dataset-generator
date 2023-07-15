@@ -1,8 +1,6 @@
 <!-- @format -->
 
-### Gupta Dynasty Coin Datasets:
-
-We are working on archer type coins
+### Gupta Dynasty Archer type Coin Datasets:
 
 ##### List of king of Gupta Dynasty we are working on:
 
