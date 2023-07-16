@@ -1,5 +1,6 @@
 import glob
 import os
+import uuid
 
 
 class MapData:
@@ -17,3 +18,14 @@ class MapData:
 
     def getMapData(self):
         return self.__data__
+
+    ## Warning: Do not run this method on main image datasets it would rename randomly add files
+    def renameMapData(self, format):
+        for i in self.__data__.keys():
+            self.__data__[i] = f"{uuid.uuid4()}.{format}"
+
+        for i in self.__data__.keys():
+            path = i.split("/")
+            path = "/".join(path[0 : (len(path) - 1)])
+            path = os.path.join(path, self.__data__[i])
+            os.rename(i, path)

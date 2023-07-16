@@ -7,7 +7,10 @@ class TestUtility(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    test = map_data.MapData(dirName="test/**/*")
+    print(test.getMapData())
 
-    test = map_data.MapData(dirName="Gupta/**/*")
-    print(len(test.getMapData()))
+    test.renameMapData("jpg")
+    print(test.getMapData())
+
+    unittest.main()
