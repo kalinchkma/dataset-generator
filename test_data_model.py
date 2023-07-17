@@ -1,4 +1,4 @@
-from data import Coin, DataContainer
+from data_model import Coin, DataContainer
 import unittest
 
 

@@ -19,7 +19,9 @@ class MapData:
     def getMapData(self):
         return self.__data__
 
-    ## Warning: Do not run this method on main image datasets it would rename randomly add files
+    ## Warning: Do not run this method
+    ## on main image datasets
+    ## it would rename randomly add files
     def renameMapData(self, format):
         for i in self.__data__.keys():
             self.__data__[i] = f"{uuid.uuid4()}.{format}"
