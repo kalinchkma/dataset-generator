@@ -1,28 +1,35 @@
 import glob
 import os
 import uuid
+import json
 
 
 class MapData:
     __data__ = {}
 
-    def __init__(self, dirName):
-        self.dirName = dirName
-        self.__mapData__()
-
-    def __mapData__(self):
-        for i in glob.iglob(self.dirName, recursive=True):
+    ## Map Data from file
+    def mapDataFromFile(self, dirName):
+        dirPath = dirName + "/**/*"
+        for i in glob.iglob(dirPath, recursive=True):
             if os.path.isdir(i):
                 continue
             self.__data__[i] = i
 
+    ## Map data from json file
+    def mapDataFromJSON(self, filePath):
+        with open(filePath) as file:
+            data = json.load(file)
+            print(type(data))
+
+    ## Get MapData
     def getMapData(self):
         return self.__data__
 
     ## Warning: Do not run this method
     ## on main image datasets
-    ## it would rename randomly add files
+    ## it would rename file names randomly
     def renameMapData(self, format):
+        data = {}
         for i in self.__data__.keys():
             self.__data__[i] = f"{uuid.uuid4()}.{format}"
 
@@ -31,3 +38,5 @@ class MapData:
             path = "/".join(path[0 : (len(path) - 1)])
             path = os.path.join(path, self.__data__[i])
             os.rename(i, path)
+            data[path] = path
+        self.__data__ = data
