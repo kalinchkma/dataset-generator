@@ -25,15 +25,12 @@ class Coin:
 
 # Datasets wrapper
 class DataContainer:
-    __npDataList = {
-        "id": [],
-        "image_name": [],
-        "dynasty": [],
-        "coin_type": [],
-        "details": [],
-    }
+    __npDataList = {}
     __container = pd.DataFrame([])
     __n = 0
+
+    def __init__(self, dataObject):
+        self.__npDataList = dataObject
 
     ## Add data to data datafra
     def add(self, data: Coin):
