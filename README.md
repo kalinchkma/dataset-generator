@@ -13,8 +13,10 @@
 #### How to add coin details to DataFrame
 
 - Add data to `data.csv`
-- data keys:
+- Data keys:
   - image_name: string
   - dynasty: string
   - coin_type: string
   - details: string
+- Run `python main.py`
+  - It will automatically create `data.csv`,`data.xlsx` for us
