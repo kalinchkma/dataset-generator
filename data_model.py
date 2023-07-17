@@ -10,6 +10,7 @@ class Coin:
         self.__coin_type = coin_type
         self.__details = details
 
+    ## Convert data into dictionary
     def dic(self) -> dict:
         return {
             "image_name": self.__image_name,
@@ -34,6 +35,7 @@ class DataContainer:
     __container = pd.DataFrame([])
     __n = 0
 
+    ## Add data to data datafra
     def add(self, data: Coin):
         self.__npDataList["id"].append(self.__n)
         for i in self.__npDataList.keys():
@@ -43,14 +45,18 @@ class DataContainer:
         self.__n += 1
         return self
 
+    ## Return dataframe
     def getDataFrame(self):
         return self.__container
 
+    ## Return data as dictionary
     def getDataList(self):
         return self.__npDataList
 
+    ## export dataframe to excel
     def exportDataFrameToExcel(self, fileName):
         self.__container.to_excel(fileName, index=False)
 
+    ## export dataframe to csv
     def exportDataFramToCSV(self, fileName):
         self.__container.to_csv(fileName, sep=",", index=False)
