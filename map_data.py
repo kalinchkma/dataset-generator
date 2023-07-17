@@ -8,7 +8,7 @@ class MapData:
     __data__ = {}
 
     ## Map Data from file
-    def mapDataFromFile(self, dirName):
+    def mapImageDataFromFile(self, dirName):
         dirPath = dirName + "/**/*"
         for i in glob.iglob(dirPath, recursive=True):
             if os.path.isdir(i):
@@ -19,7 +19,7 @@ class MapData:
     def mapDataFromJSON(self, filePath):
         with open(filePath) as file:
             data = json.load(file)
-            print(type(data))
+            self.__data__ = data
 
     ## Get MapData
     def getMapData(self):
