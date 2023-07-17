@@ -12,9 +12,9 @@
 
 #### How to add coin details to DataFrame
 
-    * Add data to `data.csv`
-    * data keys:
-        * image_name: string
-        * dynasty: string
-        * coin_type: string
-        * details: string
+- Add data to `data.csv`
+- data keys:
+  - image_name: string
+  - dynasty: string
+  - coin_type: string
+  - details: string
