@@ -1,26 +1,24 @@
 import numpy as np
 import pandas as pd
+from constant import baseDataObject
 
 
 # coin data entry wrapper
 class Coin:
-    def __init__(self, image_name, dynasty, coin_type, details) -> None:
-        self.__image_name = image_name
-        self.__dynasty = dynasty
-        self.__coin_type = coin_type
-        self.__details = details
+    __coin = {}
+
+    def __init__(self, **coin) -> None:
+        for key in baseDataObject.keys():
+            if key == "id":
+                continue
+            self.__coin[key] = coin[key]
 
     ## Convert data into dictionary
     def dic(self) -> dict:
-        return {
-            "image_name": self.__image_name,
-            "dynasty": self.__dynasty,
-            "coin_type": self.__coin_type,
-            "details": self.__details,
-        }
+        return self.__coin
 
     def __str__(self) -> str:
-        return f"image_name: {self.__image_name}|dynasty: {self.__dynasty}|coin_type: {self.__coin_type}|details: {self.__details}"
+        return f"image_name: {self.__image_name}|dynasty: {self.__dynasty}|coin_type: {self.__coin_type}|details: {self.__details}|label: {self.__label}"
 
 
 # Datasets wrapper

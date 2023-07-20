@@ -4,7 +4,7 @@
 
 ##### List of king of Gupta Dynasty we are working on: (we are working on specially `archer type` coin)
 
-    * Kumar gupta
+    * Kumar gupta 1
     * Skandha gupta
     * Narashima gupta
     * Vishnu gupta

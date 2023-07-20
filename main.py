@@ -1,13 +1,6 @@
 from map_data import MapData
 from data_model import Coin, DataContainer
-
-baseDataObject = {
-    "id": [],
-    "image_name": [],
-    "dynasty": [],
-    "coin_type": [],
-    "details": [],
-}
+from constant import baseDataObject
 
 
 def createDataFrame():
@@ -24,6 +17,7 @@ def createDataFrame():
             dynasty=dataObject["dynasty"],
             coin_type=dataObject["coin_type"],
             details=dataObject["details"],
+            label=dataObject["label"],
         )
         dataContainer.add(coin.dic())
     dataContainer.exportDataFramToCSV(fileName="data.csv")
