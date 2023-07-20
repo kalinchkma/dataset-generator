@@ -27,7 +27,7 @@ class MapData:
 
     ## Warning: Do not run this method
     ## on main image datasets
-    ## it would rename file names randomly
+    ## it will rename file names randomly
     def renameMapData(self, format):
         data = {}
         for i in self.__data__.keys():
