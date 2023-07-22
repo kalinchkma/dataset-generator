@@ -7,12 +7,14 @@ from constant import baseDataObject
 from rembg import removeBackground
 
 
-def createDataFrame(dirName: str) -> tuple:
+def createDataFrame(sourceDirName: str) -> tuple:
     # Create Data object
     data = MapData()
     dataContainer = DataContainer(dataObject=baseDataObject)
 
-    sourceFile = glob.iglob(os.path.join(os.getcwd(), dirName, "**/*"), recursive=True)
+    sourceFile = glob.iglob(
+        os.path.join(os.getcwd(), sourceDirName, "**/*"), recursive=True
+    )
 
     for file in sourceFile:
         # map data from json file
@@ -39,5 +41,5 @@ def backgroundRemover(sorceFile: str):
 
 
 if __name__ == "__main__":
-    # createDataFrame("data")
+    # createDataFrame(sourceDirName="data")
     backgroundRemover(sorceFile="config.json")

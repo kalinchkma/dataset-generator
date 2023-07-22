@@ -55,7 +55,7 @@ def save_output(image_name, pred, d_dir, orgina_image):
     or_image[or_image == 0] = 10
     imo = Image.fromarray(or_image)
     imo = imo.resize((800, 800))
-    imo.save(d_dir + imidx + ".png")
+    imo.save(d_dir + imidx + ".jpg")
 
 
 def removeBackground(sourceFolder, destinationFolder):
