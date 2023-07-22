@@ -22,4 +22,7 @@
 - Run `python main.py`
   - It will automatically create `data.csv`,`data.xlsx` for us
 
-#### To remove image background we used [U-2-Net](https://github.com/xuebinqin/U-2-Net/tree/master){:target="\_blank" rel="noopener"} model
+#### To remove image background we used [U-2-Net] model
+
+[U-2-Net](https://github.com/xuebinqin/U-2-Net/tree/master){:target="\_blank"
+rel="noopener"}
