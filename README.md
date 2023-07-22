@@ -1,14 +1,14 @@
 <!-- @format -->
 
-### Gupta Dynasty Archer type Coin Datasets:
+### Gupta Dynasty Archer-type Coin Datasets:
 
-##### List of king of Gupta Dynasty we are working on: (we are working on specially `archer type` coin)
+##### List of kings of the Gupta Dynasty we are working on: (we are working on a specially `archer type` coin)
 
-    * Kumar gupta 1
-    * Skandha gupta
-    * Narashima gupta
-    * Vishnu gupta
-    * Chandra gupta 2
+    * Kumar Gupta 1
+    * Skandha Gupta
+    * Narashima Gupta
+    * Vishnu Gupta
+    * Chandra Gupta 2
 
 #### How to add coin details to DataFrame
 
@@ -22,4 +22,4 @@
 - Run `python main.py`
   - It will automatically create `data.csv`,`data.xlsx` for us
 
-#### To remove image background we used [U-2-Net](https://github.com/xuebinqin/U-2-Net/tree/master){:target='\_blank'} model
+#### To remove image background we used [U-2-Net](https://github.com/xuebinqin/U-2-Net/tree/master){:target='_blank'} model
