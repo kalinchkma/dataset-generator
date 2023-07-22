@@ -1,12 +1,29 @@
 id,image_name,dynasty,coin_type,details,label
-0,Skanda-4865A-654.50-obverse.jpg,0,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda,0
-1,Skanda-4865A-654.50-reverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around,0
-2,Skanda-4865-148.06-obverse.jpg,0,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda;circular Brahmi legend around,0
-3,Skanda-4865-148.06-reverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: kramadityah,0
-4,Skanda-4866-421.04-obverse.jpg,0,0,"King standing at left and facing right and holding an Indian long bow in his left hand and an arrow in his right hand, Lakshmi standing at right, facing left and offering an indistinct object to the king Garuda standard between the two figures,",0
-5,Skanda-4866-421.04-reverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around,0
-6,Kumara-4829v-625.13-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend in right field: Kumara,0
-7,Kumara-4829v-625.13-reverse.jpg,1,0,Lakshmi seated facing and holding long-stemmed lotus and scattering coins with her right hand;Brahmi legend at right: Sri Mahendra;circular Brahmi legend around,0
-8,Kumara-4830-280.60-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Ku;circular Brahmi legend around,0
-9,Kumara-4830-280.60-reverse.jpg,1,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: Sri Mahendra;,0
-10,Kumara-4834-486.22-obverse.jpg,1,0,"King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left, Brāhmī legend under arm: Ku",0
+0,Kumara-4829v-625.13-obverse.jpg,0,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend in right field: Kumara,0
+1,Kumara-4829v-625.13-reverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and scattering coins with her right hand;Brahmi legend at right: Sri Mahendra;circular Brahmi legend around,0
+2,Kumara-4830-280.60-obverse.jpg,0,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Ku;circular Brahmi legend around,0
+3,Kumara-4830-280.60-reverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: Sri Mahendra;,0
+4,Kumara-4834-486.22-obverse.jpg,0,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Ku;circular Brahmi legend around,0
+5,Kumara-4834-486.22-obverse.jpg,0,0,Lakshmi seated facing and holding long-stemmed lotus and scattering coins with her right hand;Brahmi legend at right: Sri Mahendra;circular Brahmi legend around,0
+6,Chandra-4796A-468.23-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Chandra;circular Brahmi legend around,0
+7,Chandra-4796A-468.23-reverse.jpg,1,0,"Lakshmi seated facing on a stylized lotus in padmasana, holding lotus blossom and diadem;Brahmi legend at right: Sri Vikramah;circular Brahmi legend around",0
+8,Chandra-4796F-440.05-obverse.jpg,1,0,"King standing and holding an Indian long bow in his left hand and an arrow in his right, sword at his hip, Garuda standard at left;Brahmi legend under arm: Chandra;circular Brahmi legend around",0
+9,Chandra-4796F-440.05-reverse.jpg,1,0,Lakshmi seated facing on a stylized lotus in padmasana and holding lotus blossom and diadem;Brahmi legend at right: Sri Vikramah;circular Brahmi legend around,0
+10,Chandra-4796G-586.10-obverse.jpg,1,0,"King standing and holding an Indian long bow in his left hand and an arrow in his right, Garuda standard at left;Brahmi legend under arm: Chandra;circular Brāhmī legend around",0
+11,Chandra-4796G-586.10-reverse.jpg,1,0,Lakshmi seated facing on a profile lotus in padmasana and holding lotus blossom and diadem;Brahmi legend at right: Sri Vikramah,0
+12,Chandra-4796M-512.08-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;circular Brahmi legend around,0
+13,Chandra-4796M-512.08-reverse.jpg,1,0,Lakshmi seated facing on a stylized lotus in padmasana and holding lotus blossom and diadem;Brahmi legend at right: Sri Vikramah,0
+14,Chandra-4807v-468.21-obverse.jpg,1,0,"King standing and holding an Indian long bow in his left hand and an arrow in his right, Garuda standard at left;Brahmi legend under arm: Chandra;circular Brahmi legend around",0
+15,Chandra-4807v-468.21-reverse.jpg,1,0,Lakshmi seated facing on a stylized lotus in padmasana and holding lotus blossom and scattering coins;Brahmi legend at right: Sri Vikramah,0
+16,Chandra-4808A.2-435.20-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm between the bow and bowstring: Chandra;circular Brahmi legend around,0
+17,Chandra-4808A.2-435.20-reverse.jpg,1,0,"Lakshmi enthroned facing, holding lotus blossom and diadem;Brahmi legend at right: Sri Vikramah",0
+18,Chandra-4808A-344.29-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Chandra;circular Brahmi legend around,0
+19,Chandra-4808A-344.29-reverse.jpg,1,0,"Lakshmi enthroned facing and holding cornucopia in left arm, with right hand in varadamudra, dispensing coins;Brahmi legend at right: Sri Vikramah",0
+20,Chandra-4808Bv-468.20-obverse.jpg,1,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm between the bow and bowstring: Chandra;circular Brahmi legend around,0
+21,Chandra-4808Bv-468.20-reverse.jpg,1,0,Lakshmi enthroned facing and holding cornucopia and diadem;Brahmi legend at right: Sri Vikramah,0
+22,Skanda-4865A-654.50-obverse.jpg,2,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda,0
+23,Skanda-4865A-654.50-reverse.jpg,2,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around,0
+24,Skanda-4865-148.06-obverse.jpg,2,0,King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda;circular Brahmi legend around,0
+25,Skanda-4865-148.06-reverse.jpg,2,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: kramadityah,0
+26,Skanda-4866-421.04-obverse.jpg,2,0,"King standing at left and facing right and holding an Indian long bow in his left hand and an arrow in his right hand, Lakshmi standing at right, facing left and offering an indistinct object to the king Garuda standard between the two figures,",0
+27,Skanda-4866-421.04-reverse.jpg,2,0,Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around,0

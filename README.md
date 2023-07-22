@@ -27,4 +27,6 @@
 
 #### To remove image background we used [U-2-Net] model
 
+- Image size is `800x800`
+
 [U-2-Net]: https://github.com/xuebinqin/U-2-Net/tree/master

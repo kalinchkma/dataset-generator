@@ -20,6 +20,7 @@ class MapData:
         with open(filePath) as file:
             data = json.load(file)
             self.__data__ = self.__data__ + data
+        print(self.__data__)
 
     ## Get MapData
     def getMapData(self):
