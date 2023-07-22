@@ -1,0 +1,37 @@
+[
+	{
+		"image_name": "Kumara-4829v-625.13-obverse.jpg",
+		"dynasty": "Gupta/Kumaragupta I",
+		"coin_type": "archer type",
+		"details": "King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend in right field: Kumara",
+		"label": "real"
+	},
+	{
+		"image_name": "Kumara-4829v-625.13-reverse.jpg",
+		"dynasty": "Gupta/Kumaragupta I",
+		"coin_type": "archer type",
+		"details": "Lakshmi seated facing and holding long-stemmed lotus and scattering coins with her right hand;Brahmi legend at right: Sri Mahendra;circular Brahmi legend around",
+		"label": "real"
+	},
+	{
+		"image_name": "Kumara-4830-280.60-obverse.jpg",
+		"dynasty": "Gupta/Kumaragupta I",
+		"coin_type": "archer type",
+		"details": "King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: Ku;circular Brahmi legend around",
+		"label": "real"
+	},
+	{
+		"image_name": "Kumara-4830-280.60-reverse.jpg",
+		"dynasty": "Gupta/Kumaragupta I",
+		"coin_type": "archer type",
+		"details": "Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: Sri Mahendra;",
+		"label": "real"
+	},
+	{
+		"image_name": "Kumara-4834-486.22-obverse.jpg",
+		"dynasty": "Gupta/Kumaragupta I",
+		"coin_type": "archer type",
+		"details": "King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left, Brāhmī legend under arm: Ku",
+		"label": "real"
+	}
+]

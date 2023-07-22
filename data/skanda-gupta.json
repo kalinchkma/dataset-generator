@@ -1,0 +1,44 @@
+[
+	{
+		"image_name": "Skanda-4865A-654.50-obverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda",
+		"label": "real"
+	},
+	{
+		"image_name": "Skanda-4865A-654.50-reverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around",
+		"label": "real"
+	},
+	{
+		"image_name": "Skanda-4865-148.06-obverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "King standing and holding an Indian long bow in his left hand and an arrow in his right Garuda standard at left;Brahmi legend under arm: skanda;circular Brahmi legend around",
+		"label": "real"
+	},
+	{
+		"image_name": "Skanda-4865-148.06-reverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: kramadityah",
+		"label": "real"
+	},
+	{
+		"image_name": "Skanda-4866-421.04-obverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "King standing at left and facing right and holding an Indian long bow in his left hand and an arrow in his right hand, Lakshmi standing at right, facing left and offering an indistinct object to the king Garuda standard between the two figures,",
+		"label": "real"
+	},
+	{
+		"image_name": "Skanda-4866-421.04-reverse.jpg",
+		"dynasty": "Gupta/Skandagupta",
+		"coin_type": "archer type",
+		"details": "Lakshmi seated facing and holding long-stemmed lotus and diadem;Brahmi legend at right: sri skandaguptah;circular Brahmi legend around",
+		"label": "real"
+	}
+]

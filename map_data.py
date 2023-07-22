@@ -5,7 +5,7 @@ import json
 
 
 class MapData:
-    __data__ = {}
+    __data__ = []
 
     ## Map Data from file
     def mapImageDataFromFile(self, dirName):
@@ -19,7 +19,7 @@ class MapData:
     def mapDataFromJSON(self, filePath):
         with open(filePath) as file:
             data = json.load(file)
-            self.__data__ = data
+            self.__data__ = self.__data__ + data
 
     ## Get MapData
     def getMapData(self):

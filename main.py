@@ -8,7 +8,8 @@ def createDataFrame() -> tuple:
     data = MapData()
     dataContainer = DataContainer(dataObject=baseDataObject)
     # map data from json file
-    data.mapDataFromJSON("data.json")
+    data.mapDataFromJSON("data/skanda-gupta.json")
+    data.mapDataFromJSON("data/kumara-gupta-I.json")
 
     # map data to datacontainer
     for dataObject in data.getMapData():
@@ -18,3 +19,7 @@ def createDataFrame() -> tuple:
     dataContainer.exportDataFrameToExcel(fileName="data.xlsx")
     data, label, dynasty, coin_type = dataContainer.getDataFrame()
     return (data, label, dynasty, coin_type)
+
+
+if __name__ == "__main__":
+    createDataFrame()
