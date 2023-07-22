@@ -3,7 +3,7 @@ from data_model import Coin, DataContainer
 from constant import baseDataObject
 
 
-def createDataFrame():
+def createData() -> tuple:
     # Create Data object
     data = MapData()
     dataContainer = DataContainer(dataObject=baseDataObject)
@@ -16,8 +16,6 @@ def createDataFrame():
         dataContainer.add(coin.dic())
     dataContainer.exportDataFramToCSV(fileName="data.csv")
     dataContainer.exportDataFrameToExcel(fileName="data.xlsx")
-    print(dataContainer.getDataFrame())
+    data, label, dynasty, coin_type = dataContainer.getDataFrame()
+    return (data, label, dynasty, coin_type)
 
-
-if __name__ == "__main__":
-    createDataFrame()
