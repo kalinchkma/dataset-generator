@@ -7,7 +7,7 @@ from constant import baseDataObject
 class Coin:
     __coin = {}
 
-    def __init__(self, **coin) -> None:
+    def __init__(self, coin: dict) -> None:
         for key in baseDataObject.keys():
             if key == "id":
                 continue
@@ -36,7 +36,6 @@ class DataContainer:
         for i in self.__npDataList.keys():
             if i != "id":
                 self.__npDataList[i].append(data[i])
-        self.__container = pd.DataFrame(data=self.__npDataList)
         self.__n += 1
         return self
 

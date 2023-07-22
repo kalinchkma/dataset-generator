@@ -12,13 +12,7 @@ def createDataFrame():
 
     # map data to datacontainer
     for dataObject in data.getMapData():
-        coin = Coin(
-            image_name=dataObject["image_name"],
-            dynasty=dataObject["dynasty"],
-            coin_type=dataObject["coin_type"],
-            details=dataObject["details"],
-            label=dataObject["label"],
-        )
+        coin = Coin(dataObject)
         dataContainer.add(coin.dic())
     dataContainer.exportDataFramToCSV(fileName="data.csv")
     dataContainer.exportDataFrameToExcel(fileName="data.xlsx")

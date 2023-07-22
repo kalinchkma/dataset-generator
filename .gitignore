@@ -3,3 +3,7 @@
 .vscode
 __pycache__
 .ipynb_checkpoints
+u2net/saved_models
+u2net/test_data
+figures
+saved_models
