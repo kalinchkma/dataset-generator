@@ -19,8 +19,9 @@
   - coin_type: string
   - details: string
   - label: string
-- Run `python main.py`
+- Run function from `createDataFrame` `main.py`
   - It will automatically create `data.csv`,`data.xlsx` for us
+  - It will return `data`, `label`, available `dynasty`, available `coin_type`
 
 #### To remove image background we used [U-2-Net] model
 
