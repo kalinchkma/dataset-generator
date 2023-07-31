@@ -48,11 +48,11 @@ def save_output(image_name, pred, d_dir, orgina_image):
     for i in range(1, len(bbb)):
         imidx = imidx + "." + bbb[i]
 
-    or_image = np.array(orgina_image)
+    # or_image = np.array(orgina_image)
     imo = np.array(imo)
     imo[imo != 0] = 1
-    or_image = or_image * imo
-    or_image[or_image == 0] = 10
+    or_image = image * imo
+    or_image[or_image == 0] = 255
     imo = Image.fromarray(or_image)
     imo = imo.resize((800, 800))
     imo.save(d_dir + imidx + ".jpg")

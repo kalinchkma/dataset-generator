@@ -8,3 +8,5 @@ u2net/test_data
 figures
 saved_models
 original_images
+pre-process-image/models
+pre-process-image/.ipynb_checkpoints
