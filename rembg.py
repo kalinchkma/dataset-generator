@@ -51,10 +51,12 @@ def save_output(image_name, pred, d_dir, orgina_image):
     # or_image = np.array(orgina_image)
     imo = np.array(imo)
     imo[imo != 0] = 1
-    or_image = image * imo
-    or_image[or_image == 0] = 255
+    print(image.shape, imo.shape)
+    print(image_name)
+    or_image = image[..., :3] * imo
+    or_image[or_image == 0] = 0
     imo = Image.fromarray(or_image)
-    imo = imo.resize((800, 800))
+    imo = imo.resize((500, 500))
     imo.save(d_dir + imidx + ".jpg")
 
 

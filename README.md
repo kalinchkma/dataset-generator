@@ -1,14 +1,6 @@
 <!-- @format -->
 
-### Gupta Dynasty Archer-type Coin Datasets:
-
-##### List of kings of the Gupta Dynasty we are working on: (we are working on a specially `archer type` coin)
-
-    * Kumar Gupta 1
-    * Skandha Gupta
-    * Narashima Gupta
-    * Vishnu Gupta
-    * Chandra Gupta 2
+## Ancient Coinage Datasets:
 
 #### How to add coin details to DataFrame
 
