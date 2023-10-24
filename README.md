@@ -2,6 +2,8 @@
 
 ## Ancient Coinage Datasets:
 
+This repository for creating datasets of ancient coins
+
 #### How to add coin details to DataFrame
 
 - Add data:
